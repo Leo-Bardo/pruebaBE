@@ -1,0 +1,35 @@
+body .titulo{
+	justify-content: center;
+	width: 50%;
+	font-size: 20px;
+	text-align: center;
+
+}
+form{
+	border: solid 8px;
+	background-color: gray;
+	font-size: 24px;
+	margin: 10px 160px;
+	text-align: center;
+
+}
+.container{
+	width: 87%;
+	padding: 8px;
+	margin: 60px;
+}
+#sexo{
+	font-size: 18px;
+}
+input{
+	width: 25%;
+	height: 20px;
+}
+.button{
+	text-align: center;
+}
+.button input{
+	font-size: 25px;
+	background-color: darkred;
+	height: 50px;
+}
