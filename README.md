@@ -27,5 +27,5 @@ Manipulación de Bases de Datos con MySQL: Verificar la capacidad del candidato 
 * Instrucciones:
 - Utiliza los comandos 'git branch nombre-rama', 'git checkout nombre-rama' y 'git push' para enviar los cambios.
 
-### Nota: debes tener instaladas las herramientas para realizar esta prueba, Suerte.
+### Nota: debes tener instaladas las herramientas para realizar esta prueba, Suerte 🍎♟️🐝.
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
