@@ -33,7 +33,8 @@ CREATE TABLE `usuarios` (
   `apellidoPaterno` varchar(30) NOT NULL,
   `apellidoMaterno` varchar(30) NOT NULL,
   `fechaNacimiento` date NOT NULL,
-  `sexo` varchar(10) NOT NULL
+  `sexo` varchar(10) NOT NULL,
+  `email` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --

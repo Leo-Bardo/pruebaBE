@@ -5,14 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Registro</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+        function validarFormulario() {
+            var nombre = document.getElementById("nombre").value;
+            var apellidoPaterno = document.getElementById("apellido_paterno").value;
+            var apellidoMaterno = document.getElementById("apellido_materno").value;
+            var fechaNacimiento = document.getElementById("fecha_nacimiento").value;
+            var sexo = document.getElementById("sexo").value;
+            var email = document.getElementById("email").value;
+
+            if (nombre === "" || apellidoPaterno === "" || apellidoMaterno === "" || fechaNacimiento === "" || sexo === "" || email === "") {
+                alert("Por favor, complete todos los campos.");
+                return false;
+            }
+            return true;
+        }
+    </script>
 </head>
 <body>
-    <div class="titulo">
-    </div>
-
-        <form action="procesarRegistro.php" method="POST">
+    <form action="procesarRegistro.php" method="POST" onsubmit="return validarFormulario()">
+        <div class="titulo">
             <h1>FORMULARIO DE REGISTRO</h1>
-            <div class="container">
+            <img src="image.png" alt="Descripción de la imagen" class="imagen">
+        </div>
+        <div class="container">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre"><br><br>
 
@@ -27,15 +43,19 @@
 
             <label for="sexo">Sexo:</label>
             <select id="sexo" name="sexo">
+                <option value="">Seleccione una opción</option>
                 <option value="masculino">Masculino</option>
                 <option value="femenino">Femenino</option>
                 <option value="otro">Otro</option>
             </select><br><br>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email"><br><br>
+
             <div class="button">
                 <input type="submit" value="Enviar">
             </div>
-            
-    </div>
+        </div>
     </form>
 </body>
 </html>

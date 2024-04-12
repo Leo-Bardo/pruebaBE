@@ -1,35 +1,82 @@
-body .titulo{
-	justify-content: center;
-	width: 50%;
-	font-size: 20px;
-	text-align: center;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
 
+.imagen {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+	margin: 100px auto;
 }
-form{
-	border: solid 8px;
-	background-color: gray;
-	font-size: 24px;
-	margin: 10px 160px;
-	text-align: center;
 
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px; 
 }
-.container{
-	width: 87%;
-	padding: 8px;
-	margin: 60px;
+
+
+form {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
-#sexo{
-	font-size: 18px;
+
+.container {
+    margin-bottom: 20px;
 }
-input{
-	width: 25%;
-	height: 20px;
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
 }
-.button{
-	text-align: center;
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
 }
-.button input{
-	font-size: 25px;
-	background-color: darkred;
-	height: 50px;
+
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #2ed4d4;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #49fff6;
+    outline: none;
 }
