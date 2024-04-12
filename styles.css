@@ -1,35 +1,55 @@
-body .titulo{
-	justify-content: center;
-	width: 50%;
-	font-size: 20px;
-	text-align: center;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
 
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-form{
-	border: solid 8px;
-	background-color: gray;
-	font-size: 24px;
-	margin: 10px 160px;
-	text-align: center;
 
+h1 {
+    text-align: center;
+    color: #333;
 }
-.container{
-	width: 87%;
-	padding: 8px;
-	margin: 60px;
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #666;
 }
-#sexo{
-	font-size: 18px;
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
-input{
-	width: 25%;
-	height: 20px;
+
+.button {
+    text-align: center;
 }
-.button{
-	text-align: center;
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
 }
-.button input{
-	font-size: 25px;
-	background-color: darkred;
-	height: 50px;
+
+input[type="submit"]:hover {
+    background-color: #45a049;
 }
+
