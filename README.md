@@ -7,7 +7,7 @@
 
 OBJETIVO
 
-Evaluar las habilidades y competencias del candidato en el desarrollo de aplicaciones backend utilizando PHP y MySQL. La prueba estará diseñada para evaluar varios aspectos, que pueden incluir, entre otros:
+Evaluar las habilidades y competencias del candidato en el desarrollo de aplicaciones backend utilizando PHP y MySQL. La prueba está diseñada para evaluar varios aspectos, que pueden incluir, entre otros:
 
 Conocimientos Fundamentales de PHP: Evaluar la comprensión del lenguaje PHP, incluyendo la sintaxis básica, estructuras de control, funciones, clases y objetos, manejo de errores, entre otros.
 
@@ -25,7 +25,7 @@ Manipulación de Bases de Datos con MySQL: Verificar la capacidad del candidato 
 ### OPCIONAL
 - Crea una nueva rama
 * Instrucciones:
-- Utiliza los comandos 'git branch nombre-rama', 'git checkout nombre-rama' y 'git push' para enviar los cambios.
+    - Utiliza los comandos 'git branch nombre-rama', 'git checkout nombre-rama' y 'git push' para enviar los cambios.
 
 ### Nota: debes tener instaladas las herramientas para realizar esta prueba, Suerte 🍎♟️🐝.
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)

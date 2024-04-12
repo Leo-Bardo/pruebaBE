@@ -32,6 +32,8 @@ CREATE TABLE `usuarios` (
   `nombre` varchar(30) NOT NULL,
   `apellidoPaterno` varchar(30) NOT NULL,
   `apellidoMaterno` varchar(30) NOT NULL,
+  -- Se creo un campo para número de telefono para poder contactar
+  `NúmeroTelefonico` int(10) NOT NULL,
   `fechaNacimiento` date NOT NULL,
   `sexo` varchar(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -60,3 +62,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
