@@ -1,3 +1,4 @@
+
 <?php
 // En este apartado comienza la conexion a la base de datos pruebabe.
 $servername = "127.0.0.1";
